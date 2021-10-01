@@ -81,7 +81,7 @@ d3.csv("wealth-health-2014.csv", (row)=> {
             d3.select(".tooltip")
                 .style("display", "block")
                 .style("top", (pos[1]+10)+"px")
-                .style("left", (pos[1]+10)+"px").html(`
+                .style("left", (pos[0]+10)+"px").html(`
                     <div>Country: ${d.Country}</div>
                     <div>Region: ${d.Region}</div>
                     <div>Population: ${format(d.Population)}</div>
