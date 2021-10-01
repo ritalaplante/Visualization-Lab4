@@ -1,0 +1,15 @@
+body {
+    padding: 25px 50px 75px 100px;
+}
+
+.tooltip{
+    position:fixed;
+    display:none;
+    opacity: .8;
+}
+
+.circles {
+    stroke-width: 1px;
+    stroke: black;
+    opacity: .8;
+  }
